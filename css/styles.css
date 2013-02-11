@@ -1,0 +1,93 @@
+body {
+    background: #eee;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#main {
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 50px 60px;
+    border: solid #ddd;
+    border-width: 0 1px 1px 1px;
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+}
+
+#main ul {
+    padding-left: 20px;
+}
+
+#main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+
+#scrollFrame {
+    overflow: auto;
+    overflow-y: scroll;
+    width: 400px;
+    height: 400px;
+}
+
+#createRoom, #sendButton {
+    background-color: gray;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 4px;
+    margin-right: 5px;
+}
+#sendButton{
+    text-align: center;
+    margin-left: 315px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#createRoom:hover, #sendButton:hover{
+    cursor: pointer;
+}
+
+#room {
+    float: right;
+}
+.date {
+    color: red;
+}
+#messagetext{
+  
+}
+#username{
+  font-weight: bolder;
+}
+#haxdiv{
+    display: none;
+}
+#roomName{
+    margin-top: 20px;
+    width: 50px;
+}
+.label{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#UserNameDiv{
+    margin-bottom: 10px;
+}

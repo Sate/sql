@@ -1,0 +1,56 @@
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Chat with JSON!</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/moment.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="room">
+    <div>
+      <span class='label'>Chat Rooms </span>
+    </div>
+     <span id="chatRooms">
+     <select id ="chatRoomOptions"  size='12'>
+        <option value='Messages' selected="selected"> Messages</option>
+     </select> 
+    </span> 
+    <div>
+      <span id='createRoom'> New Room </span>
+      <input type='text-area' id ="roomName"></input>
+    </div>
+  </div>
+  <div id="main">
+    <h1></h1>
+      <div id='UserNameDiv'> 
+	      <span class='label'>User Name:</span>
+		    <input type='text' id='username'></input>
+      </div>
+      <div>
+      	<span class='label'>Message:</span>
+      	<input type='text-area' id="message"></input>
+      </div>
+      <div id='haxdiv'>
+        <span class='label'>Hax IT!: </span>
+        <input type='text-area' id ="haXmessage"></input>
+      </div>
+      <span id='sendButton'> Send It </span>
+      
+     
+      <div id='scrollFrame'>
+      </div>
+    
+  </div>
+
+
+</html>
